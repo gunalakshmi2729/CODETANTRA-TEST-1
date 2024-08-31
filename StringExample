@@ -1,0 +1,18 @@
+//File Name: q1152/StringExample.java
+package q1152;
+import java.util.Scanner;
+public class StringExample {
+	 public static void main(String[] args) {
+		//write your code here
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter Student name: ");
+		String studentName = scanner.nextLine();
+		System.out.println("Hello, " + studentName + ". Congratulations on passing your last exams.");
+		
+
+	scanner.close();	
+		
+		
+		
+	 }
+}
