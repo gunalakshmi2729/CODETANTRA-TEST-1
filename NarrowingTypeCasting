@@ -1,0 +1,31 @@
+//File Name: q1159/NarrowingTypeCasting.java
+
+package q1159;
+import java.util.Scanner;
+public class NarrowingTypeCasting {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a double value: ");
+        double inputDouble = scanner.nextDouble();
+
+        // write your code here
+      
+        
+        
+        System.out.println("Original Value before Casting: " + inputDouble);
+        short shortValue = (short) inputDouble;
+        System.out.println("After Type Casting to short: " + shortValue);
+        int intValue=(int) inputDouble;
+        System.out.println("After Type Casting to int: " + intValue);
+        scanner.close();
+       
+
+        
+        
+
+       
+    }
+   
+}
+
